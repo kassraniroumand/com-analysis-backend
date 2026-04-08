@@ -26,7 +26,7 @@ idea_router = APIRouter(prefix="/api/v1/ideas", tags=["ideas"])
 
 @app.get("/api/health")
 async def health():
-    return {"status": "ok 5"}
+    return {"status": "ok 6"}
 
 
 @idea_router.get("/list", response_model=IdeasListResponse)
