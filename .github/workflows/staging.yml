@@ -7,8 +7,8 @@ on:
 env:
   AWS_REGION: us-east-1
   IMAGE_URI: public.ecr.aws/p0w9g8b8/com-ana:latest
-  ECS_CLUSTER: majestic-dog-arfa4m
-  ECS_SERVICE: com-service-ebuvujks
+  ECS_CLUSTER: affectionate-wolf-70g3d5
+  ECS_SERVICE: com-service-2w8jfpy2
   TASK_DEFINITION: com
   CONTAINER_NAME: com-backend
 
